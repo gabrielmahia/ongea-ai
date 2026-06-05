@@ -4,7 +4,7 @@
 
 Voice-first AI interface for Swahili speakers — speech-to-text, text-to-speech, and conversational AI for users who read slowly or not at all. Designed for low-literacy East African users who interact best by voice.
 
-[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Why Voice Matters
 
