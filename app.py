@@ -33,7 +33,7 @@ if st.button("🤖 Jibu", key="voice_btn") and q:
     if not API_KEY:
         st.error("API key not configured")
     else:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={API_KEY}"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent?key={API_KEY}"
         body = {"contents":[{"role":"user","parts":[{"text":q}]}],
                 "systemInstruction":{"parts":[{"text":"Jibu kwa Kiswahili rahisi na fupi. Tumia sentensi fupi. Epuka maneno magumu. Jibu kama unaongea na mtu ana simu ya kawaida."}]},
                 "generationConfig":{"temperature":0.3,"maxOutputTokens":300}}
