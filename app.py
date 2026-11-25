@@ -49,4 +49,4 @@ if st.button("🤖 Jibu", key="voice_btn") and q:
             st.error(f"❌ {e}")
 
 st.markdown("---")
-st.caption("🎙️ Ongea AI v1.0 | Voice features: coming soon | CC BY-NC-ND 4.0 | gabrielmahia.ai")
+st.caption("🎙️ Ongea AI v1.0 | Voice features: coming soon | MIT | gabrielmahia.ai")
